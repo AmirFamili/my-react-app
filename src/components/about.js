@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/about.css';
 import CookyIcon from "../images/cooky-icon-1.png"
 import Cookies from "../images/cooky-icon-3.png"
 

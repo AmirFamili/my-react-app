@@ -1,0 +1,92 @@
+#main #shopping {
+    background-color: #a6cbca;
+    margin: 6rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  #main #shopping #shopping-pa {
+    width: 50%;
+    color: #ffffff;
+    text-align: center;
+    padding: 10rem 2rem;
+  }
+  
+  #main #shopping #shopping-pa h3 {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+  }
+  
+  #main #shopping #shopping-pa p {
+    font-size: larger;
+    padding: 1rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  #main #shopping #shopping-pa a {
+    font-size: medium;
+    padding: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px #ffffff solid;
+    border-radius: 10px;
+  }
+  
+  #main #shopping #shopping-pa a:hover {
+    color: #4ff0eb;
+    text-shadow: 1px 1px 5px #174442;
+    border: 3px #4ff0eb solid;
+    box-shadow: 1px 1px 5px #174442;
+  }
+  
+  
+  
+  @media (max-width: 730px) {
+    #main #shopping #shopping-pa h3 {
+      font-size: 22px;
+    }
+  
+    #main #shopping #shopping-pa p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 530px) {
+    #main #shopping #shopping-pa h3 {
+      font-size: 20px;
+    }
+  
+    #main #shopping #shopping-pa p {
+      font-size: 15px;
+    }
+  
+    #main #shopping #shopping-pa a {
+      padding: 1rem 0.5rem;
+    }
+  }
+  
+  #main #shopping-img {
+    background: url(../images/cake.jpeg);
+    background-size: cover;
+    background-position: center cover;
+    width: 50%;
+    height: 35rem;
+  }
+  
+  #icon-2 {
+    width: 8rem;
+    margin-top: -6rem;
+    margin-left: 3rem;
+    opacity: 0.2;
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+  

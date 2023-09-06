@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/header.css';
 import Sweet from '../images/sweet.png'
 
 class Header extends Component {

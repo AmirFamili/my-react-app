@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/shopping.css';
 import Icon2 from '../images/cooky-icon-2.png'
 
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/chef.css';
 import Chef1 from '../images/chef/1.jpg';
 import Chef2 from '../images/chef/2.jpeg';
 import Chef3 from '../images/chef/3.jpeg';

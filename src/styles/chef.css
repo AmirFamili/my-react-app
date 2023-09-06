@@ -1,0 +1,120 @@
+#title-bakers {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  
+  
+  #chefs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 2rem;
+  }
+  #chefs .two-chefs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #chefs .chef {
+    background-color: #ecf7f6;
+    padding: 2rem;
+    width: 250px;
+    height: 14 rem;
+    margin: 1rem;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 7px #1a3635;
+            box-shadow: 2px 2px 7px #1a3635;
+  }
+  #chefs .chef:hover {
+    -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+    transition: -webkit-box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
+    -webkit-box-shadow: 2px 2px 15px 2px #1a3635;
+            box-shadow: 2px 2px 15px 2px #1a3635;
+  }
+  #chefs .chef .chef-img {
+    margin: -80px 30px 0;
+    border-radius: 50%;
+    height: 120px;
+    -webkit-box-shadow: 1px 1px 7px #1a3635;
+            box-shadow: 1px 1px 7px #1a3635;
+  }
+  #chefs .chef .chef-name {
+    padding: 0.5rem;
+  }
+  #chefs .chef .chef-about {
+    padding: 0 0.5rem;
+  }
+  #chefs .chef .icons {
+    padding: 0.5rem;
+  }
+  #chefs .chef .icons i {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  #chefs .chef .icons i:hover {
+    color: #3eb9b5;
+    -webkit-transition: color 0.4s ease-in-out;
+    transition: color 0.4s ease-in-out;
+  }
+  @media (max-width: 1200px) {
+    #chefs #title-bakers {
+      margin-left: 2rem;
+    }
+  }
+  @media (max-width: 1100px) {
+    #chefs .two-chefs {
+      display: block;
+    }
+    #chefs .chef {
+      margin: 0 2rem 5rem 2rem;
+      width: 340px;
+    }
+    #chefs .chef .chef-img {
+      margin: -80px 60px 0;
+    }
+  }
+  #chefs #title-bakers {
+    padding-bottom: 0;
+  }
+  
+  @media (max-width: 900px) {
+    #chefs {
+      display: block;
+    }
+    #chefs .chef {
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+    }
+    #chefs .chef .chef-img {
+      margin-left: 100px;
+      width: 150px;
+      height: auto;
+    }
+    #chefs .chef .chef-about {
+      padding: 0 0.5rem 0.5rem;
+    }
+    #chefs .chef #title-bakers {
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 650px) {
+    #title-bakers {
+      margin-left: 0;
+      font-size: 1.8rem;
+    }
+  }

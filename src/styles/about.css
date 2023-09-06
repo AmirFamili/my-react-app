@@ -1,0 +1,41 @@
+#title-bakers #main #about {
+  padding: 4rem;
+  text-shadow: 1px 1px 7px #655e5b;
+}
+#main {
+    background-color: #ffffff;
+    z-index: -2;
+  }
+  
+  #main #icon-3 {
+    position: absolute;
+    width: 6rem;
+    margin: 1rem 2rem;
+    opacity: 0.2;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+  }
+  
+  #main #about {
+    position: relative;
+  }
+  
+  #main #about h2 {
+    padding: 0.5rem;
+    font-size: xx-large;
+  }
+  
+  #main #about p {
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    line-height: 25px;
+  }
+  
+  #main #about img {
+    position: absolute;
+    width: 9rem;
+    right: 2rem;
+    top: 16rem;
+    z-index: 1;
+    opacity: 0.2;
+  }
